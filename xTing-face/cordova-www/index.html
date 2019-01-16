@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+		<style type="text/css">
+			body {
+				font-family: Consolas, "Courier New", Courier, monospace;
+				font-size: 14px;
+				text-align: center;
+			}
+			div {
+				display: block;
+			}
+			span {
+				position: relative;
+				top: 10px;
+			}
+			h1 {
+				font-size: 320px;
+				font-weight: normal;
+				margin: 0px;
+				overflow: visible;
+				padding: 0px;
+				text-align: center;
+				-webkit-transform: rotate(90deg);
+			}
+			.event {
+				border-radius:4px;
+				-webkit-border-radius:4px;
+				color:#FFFFFF;
+				font-size:12px;
+				margin:0px 30px;
+				padding:2px 0px;
+			}
+
+			.event.listening {
+				background-color:#333333;
+				display:block;
+			}
+
+			.event.received {
+				background-color:#4B946A;
+				display:none;
+			}
+
+			@keyframes fade {
+				from { opacity: 1.0; }
+				50% { opacity: 0.4; }
+				to { opacity: 1.0; }
+			}
+			 
+			@-webkit-keyframes fade {
+				from { opacity: 1.0; }
+				50% { opacity: 0.4; }
+				to { opacity: 1.0; }
+			}
+			 
+			.blink {
+				animation:fade 1000ms infinite;
+				-webkit-animation:fade 1000ms infinite;
+			}
+		</style>
+        <title>Hello World</title>
+    </head>
+    <body>
+		<div style="width:100%; padding:8% 0;">
+			<div class="app" style="display: inline-block; vertical-align: middle; text-align: center; white-space: normal;">
+				<h1 id="xTingMoji">|)</h1>
+				<div id="deviceready" class="blink" style="width: 200px; position: relative; top: -190px; left: 74px;">
+					<p class="event listening">Connecting to Device</p>
+					<p class="event received">xTing is Ready</p>
+				</div>
+			</div>
+		</div>
+		<!--<audio id="audio-channel" autoplay loop>-->
+			<!--<source src="wav/robot.mp3" type="audio/mpeg">-->
+			<!--[><source src="wav/robot.wav" type="audio/wav"><]-->
+			<!--Your browser does not support the audio element.-->
+		<!--</audio>-->
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
