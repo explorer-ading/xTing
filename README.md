@@ -1,6 +1,7 @@
-# adingx
 
-Focus on my toy robot 'xiao-ting'. 
+# xTing
+
+Focus on my toy robot xTing , or 'xiao-ting'. 
 
 * Computer Vision
 * NLP
