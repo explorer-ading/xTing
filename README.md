@@ -7,5 +7,6 @@ Focus on my toy robot xTing , or 'xiao-ting'.
 * NLP
 * User Experience
 * Motion 
+* bluetooth
 
 
