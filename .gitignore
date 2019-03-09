@@ -4,6 +4,11 @@
 .DS_Store
 .ipynb*
 
+# video files
+*.mkv
+*.mp4
+*.avi
+
 # Libraries
 *.lib
 *.a
