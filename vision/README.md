@@ -18,6 +18,8 @@ Usage ranges from interactive art, to mines inspection, stitching maps on the we
 
 * [tutorial](https://docs.opencv.org/2.4/doc/tutorials/tutorials.html)
 
+* [api-reference](https://docs.opencv.org/3.0-beta/modules/refman.html)
+
 
 ### install opencv on macos
 * [install-opencv3-on-macos](https://www.learnopencv.com/install-opencv3-on-macos/)
