@@ -37,5 +37,10 @@ Usage ranges from interactive art, to mines inspection, stitching maps on the we
 * [official-tutorial](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
 
 
+### issues
+* SFIT ;
+[cant-use-surf-sift-in-opencv](https://stackoverflow.com/questions/18561910/cant-use-surf-sift-in-opencv)
+	`sift = cv2.xfeatures2d.SIFT_create()`
+
 
 
