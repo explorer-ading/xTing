@@ -44,3 +44,8 @@ Usage ranges from interactive art, to mines inspection, stitching maps on the we
 
 
 
+## scikit-image
+* [skimage](https://scikit-image.org)
+
+
+
