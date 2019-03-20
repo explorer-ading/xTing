@@ -50,7 +50,7 @@ Usage ranges from interactive art, to mines inspection, stitching maps on the we
 	Image Denoising , Non-local Means Denoising algorithm to remove noise in the image.
 	Image Inpainting , remove small noises, strokes etc in old photographs by a method called inpainting
 
-* object detection 
+* object detection (Haar Feature-based Cascade Classifiers which is achieved by Adaboost. ) 
 	haarcascades , /usr/local/Cellar/opencv/4.0.1/share/opencv4/haarcascades
 	`face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')`
 
