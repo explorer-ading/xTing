@@ -36,6 +36,24 @@ Usage ranges from interactive art, to mines inspection, stitching maps on the we
 * [python-tutroals](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 * [official-tutorial](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
 
+* Video Analysis
+* Camera Calibration and 3D Reconstruction
+
+* Feature Detection 
+	
+* Machine Learning 
+	KNN , cv2.KNearest()
+	SVM , cv2.SVM()
+	KMeans , cv2.kmeans()
+
+* Computational Photography
+	Image Denoising , Non-local Means Denoising algorithm to remove noise in the image.
+	Image Inpainting , remove small noises, strokes etc in old photographs by a method called inpainting
+
+* object detection 
+	haarcascades , /usr/local/Cellar/opencv/4.0.1/share/opencv4/haarcascades
+	`face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')`
+
 
 ### issues
 * SFIT ;
